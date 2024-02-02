@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router'
 import Categoria from '../../../models/Categoria'
-import { buscar, deletar } from '../../../service/Service'
+import { buscar, deletar } from '../../../services/Service'
 import { RotatingLines } from 'react-loader-spinner'
 
 function DeletarCategoria() {
